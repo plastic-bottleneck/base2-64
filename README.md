@@ -21,8 +21,8 @@ cc main.c -o base2-64
 ```bash
 $ ./base2-64
 
-Zahl: 101010
-Basis zwischen 2 und 64: 2
+Input: 101010
+Base between 2 and 64: 2
 Base 2: 101010
 Base 3: 1120
 Base 4: 222
