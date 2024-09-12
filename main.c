@@ -37,7 +37,7 @@ void from_base_10(unsigned long long num, int base, char *output) {
 int main() {
     	char input[65]; int input_base;
 
-    	printf("Zahl: "); scanf("%64s", input); printf("Basis zwischen 2 und 64: "); scanf("%d", &input_base);
+    	printf("Input: "); scanf("%64s", input); printf("Base between 2 and 64: "); scanf("%d", &input_base);
 
     	if (input_base < 2 || input_base > 64) {
         	printf("[X]\n"); return 1;
